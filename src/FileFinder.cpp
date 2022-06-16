@@ -56,7 +56,7 @@ namespace filefinder {
 		//auto start_time = std::chrono::steady_clock::now();
 
 		// setlocale(LC_ALL, "en_US");
-		fs::path root = fs::current_path().root_path() / fs::path("mnt/c");
+		fs::path root = fs::current_path().root_path();
 
 
 		// search for file in root dir
